@@ -1,0 +1,53 @@
+.outer-container {
+  border: solid white;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.attributes {
+  border: solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.classes {
+  border: solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.skills {
+  border: solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.attribute {
+  align-items: center;
+}
+
+.attribute-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  height: min-content;
+}
